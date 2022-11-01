@@ -9,12 +9,10 @@ java HuffmanSubmit
 
 How the code works:
 
-To understand how the code works in detail, much of it is explained in the commenting of the code itself. However, 
-this README will provide a summary of the code and its processes. The objective of this program is to receive an 
-input file, whether .pdf, .jpg, .txt, or anything, and encode that file using the greedy algorithm/Huffman coding. Once 
-an encoded version of the input file and a frequency txt file has been created, those two elements can then be used to 
-decode the encoded file. The frequency txt file is especially important in storing information about each character's 
-frequency, which will then be used in a Priority Queue.
+The objective of this program is to receive an input file, whether .pdf, .jpg, .txt, or anything, and encode that file 
+using Huffman coding. Once an encoded version of the input file and a frequency txt file has been created, those two 
+elements can then be used to decode the encoded file. The frequency txt file is especially important in storing information 
+about each character's frequency, which will then be used in a Priority Queue.
 
 As mentioned above, the program will take the name of the input file (which should be in the same folder as the code)
 and then iterate throughout each character in the file and create a character/frequency hashmap. Once the hashmap is
