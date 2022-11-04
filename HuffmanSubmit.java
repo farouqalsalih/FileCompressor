@@ -253,8 +253,8 @@ public class HuffmanSubmit implements Huffman {
    public static void main(String[] args) {
 
 	   Huffman  huffman = new HuffmanSubmit();
-	   huffman.encode("csc172_14_heapsort_lower_dark.pdf", "ur.enc", "freq.txt");
-	   huffman.decode("ur.enc", "ur_dec.pdf", "freq.txt");
+	   huffman.encode("alice.txt", "ur.enc", "freq.txt");
+	   huffman.decode("ur.enc", "ur_dec.txt", "freq.txt");
 
 	}
 }
