@@ -13,8 +13,8 @@ class Node implements Comparable<Node> {
 		one of the constructors below
 	*/
 	int frequency;
-    	Node leftNode;
-    	Node rightNode;
+    Node leftNode;
+    Node rightNode;
 	Character character;
 
 	/*
@@ -24,11 +24,11 @@ class Node implements Comparable<Node> {
 		two leaf nodes with each a character frequency of 3. So the parent
 		node's frequency is 6.
 	*/
-    	public Node(Node leftNode, Node rightNode) {
+	public Node(Node leftNode, Node rightNode) {
 		this.leftNode = leftNode;
 		this.rightNode = rightNode;
 		this.frequency = leftNode.frequency + rightNode.frequency;
-    	}
+	}
 
 	/*
 		The below constructor creates the leaf nodes with its character and
@@ -233,7 +233,7 @@ public class HuffmanSubmit implements Huffman {
 
 		cOut.flush(); //flushes the characters out
 		cOut.close();
-   }
+	}
 	
 	Character printingCharacter(Boolean val) {
 
@@ -256,5 +256,5 @@ public class HuffmanSubmit implements Huffman {
 	   huffman.encode("csc172_14_heapsort_lower_dark.pdf", "ur.enc", "freq.txt");
 	   huffman.decode("ur.enc", "ur_dec.pdf", "freq.txt");
 
-   }
+	}
 }
